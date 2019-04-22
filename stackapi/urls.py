@@ -10,4 +10,5 @@ urlpatterns = [
     path('', index, name="index"),
     path('', include(router.urls)),
     path('latest', latest, name="latest"),
+    path('results', latest, name="results"),
 ]
